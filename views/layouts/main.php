@@ -31,7 +31,7 @@ AppAsset::register($this);
         $main = 0;
 
         NavBar::begin([
-                'brandLabel' => 'Інформація СПС',
+                'brandLabel' => 'База знань',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     //'class' => 'navbar-inverse navbar-fixed-top',
@@ -46,9 +46,8 @@ AppAsset::register($this);
                     'items' => [
                         ['label' => Html::tag('span',' Головна',['class' => 'glyphicon glyphicon-home']) ,
                             'url' => ['/site/index']],
-                        ['label' => 'Плани', 'url' => ['/site/plan_forma']],
-                        ['label' => 'Щоденник', 'url' => ['/site/a_diary_forma']],
-                        ['label' => 'Телефони', 'url' => ['/site/phones_sap']],
+                        ['label' => 'Пошук', 'url' => ['/site/plan_forma']],
+                        ['label' => 'Довідники', 'url' => ['/site/a_diary_forma']],
                         ['label' => 'Про сайт', 'url' => ['/site/about']],
 
                     ],

@@ -493,7 +493,8 @@ a.desc:after {
     
 }
 .hero_area {
-    background-image: url(../electric.jpg);
+    /*background-image: url(../base_kn.jpg);*/
+    background-image: url(../kn_base3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -594,7 +595,7 @@ a.desc:after {
 /* баВаЕб баОаНаА аИ баАаМаКаИ аНаАаВаИаГаАбаИаОаНаНаОаГаО аМаЕаНб */
 .navbar-default {
 /*    background-color: #4ecc71;*/
-    background-color: #14837D;
+    background-color: #00a052;
     border-color: #27ae60;
 }
 /* баВаЕб баЕаКббаА, баОаДаЕбаЖаАбаИаЙ аНаАаЗаВаАаНаИаЕ баАаЙбаА аИаЛаИ аБбаЕаНаДаА */

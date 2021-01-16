@@ -5,7 +5,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
-$this->title = 'Телефонний довідник (ЦЄК)';
+$this->title = 'База знань (ЦЕК)';
 ?>
 
 <script>
